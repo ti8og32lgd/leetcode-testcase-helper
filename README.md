@@ -23,9 +23,9 @@ help you input(in leetcode's format)and manage testcases handily when you doing 
 - printer.cpp    print usual data type in leetcode's problem conveniently
 
 >case.py  python3 version
-  
 
-  
+
+
 
 
 
@@ -47,15 +47,16 @@ help you input(in leetcode's format)and manage testcases handily when you doing 
 
 ### Example
 目录结构 project directory
---- dir/
-   -- case.cpp
-   -- printer.cpp
 
---- data/
+———dir/
+   ———case.cpp
+   ———printer.cpp
 
- 	-- a_problem.txt
+———data/
 
---- a_problem.cpp
+ 	———a_problem.txt
+
+———a_problem.cpp
 
    
 
