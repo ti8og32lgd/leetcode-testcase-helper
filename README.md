@@ -4,7 +4,7 @@ help you input(in leetcode's format)and manage testcases handily when you doing 
 
 本地IDE做leetcode题时,帮助你将leetcode格式的多个测试用例输入并使用。
 
-![intro](pic\intro.gif)
+![intro](pic/intro.gif)
 
 ### feature
 
