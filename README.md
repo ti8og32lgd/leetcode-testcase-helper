@@ -51,11 +51,14 @@ help you input(in leetcode's format)and manage testcases handily when you doing 
 project directory
 
 ———dir/
+
 —————case.cpp
 —————printer.cpp
 
 ———data/
+
 —————a_problem.txt
+
 ———a_problem.cpp
 
    
