@@ -1,8 +1,10 @@
 # leetcode-testcase-helper
 
-help you input and manage testcase when you solving problem locally.
+help you input(in leetcode's format)and manage testcases handily when you doing leetcode's problem in local IDE.
 
-本地做题的时候简便的输入和管理多个测试用例
+本地IDE做leetcode题时,帮助你将leetcode格式的多个测试用例输入并使用。
+
+![intro](pic\intro.gif)
 
 ### feature
 
