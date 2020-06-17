@@ -1,8 +1,10 @@
 # leetcode-testcase-helper
 
+[中文README](./README_CHN.md)
+
 help you input(in leetcode's format)and manage testcases handily when you doing leetcode's problem in local IDE.
 
-本地IDE做leetcode题时,帮助你将leetcode格式的多个测试用例输入并使用。[中文](./README_CHN.md)
+本地IDE做leetcode题时,帮助你将leetcode格式的多个测试用例输入并使用。
 
 ![intro](pic/intro.gif)
 
@@ -46,16 +48,14 @@ help you input(in leetcode's format)and manage testcases handily when you doing 
   same with leetcode
 
 ### Example
-目录结构 project directory
+project directory
 
 ———dir/
-   ———case.cpp
-   ———printer.cpp
+—————case.cpp
+—————printer.cpp
 
 ———data/
-
- 	———a_problem.txt
-
+—————a_problem.txt
 ———a_problem.cpp
 
    
