@@ -1,52 +1,48 @@
 # leetcode-testcase-helper
 
-help you input(in leetcode's format)and manage testcases handily when you doing leetcode's problem in local IDE.
 
-本地IDE做leetcode题时,帮助你将leetcode格式的多个测试用例输入并使用。[中文](./README_CHN.md)
+
+本地IDE做leetcode题时,帮助你将leetcode格式的多个测试用例输入并使用。
 
 ![intro](pic/intro.gif)
 
 ### feature
 
-- write multiple testcases in a text file
+- 把多个测试用例写在一个文本文件里
 
-- generate variables in cpp code from the text file
+- 从文本文件里生成代码里函数方法需要的参数变量
 
-- support  usual data type in leetcode's problem
+- 支持了leetcode problem中常见数据类型
 
   
 
 ### File
 
-- case.cpp       generate testcase variables from text file
+- case.cpp       生成测试用例的文件
+- printer.cpp    方便打印leetcode problem中常见数据类型
 
-- printer.cpp    print usual data type in leetcode's problem conveniently
-
->case.py  python3 version
-  
-
-  
-
-
+> case.py  python3版本，和cpp版本略有不同
 
 ### Data Type
 
-- int,  char, bool,  string  (exclude float, double):  one element a line,for string, `"elem"` or `elem` are both ok
+- int, char, bool, string (不支持浮点类型)： 每行一个元素，对于string，加不加双引号""都可以
 
-- vector<>:    `e1,e2,e3,e4,e5` or `[e1,e2,e3,e4,e5]`, **must be in one line**, space in anywhere will not bother(exclude string)
+- vector<>:  `e1,e2,e3,e4,e5` or `[e1,e2,e3,e4,e5]`, **必须在一行内**, 行前、行后、元素前后有空格不影响
 
-- vector<vector<>>: `[[e1,e2,e3],[e4,e5,e6]]`, **must be in one line**, pace in anywhere will not bother(exclude string)
+- vector<vector<>>: `[[e1,e2,e3],[e4,e5,e6]]`, **必须在一行内**, 行前、行后、元素前后有空格不影响
 
-- ListNode*  : same as vector<>
+- ListNode*： 同vector<>
 
-- TreeNode*  : 
+- TreeNode*:
 
   ![tree](pic/tree.png)
 
-  same with leetcode
+格式和leetcode中的TreeNode testcase一样
 
 ### Example
+
 目录结构 project directory
+
 --- dir/
    -- case.cpp
    -- printer.cpp
@@ -56,8 +52,6 @@ help you input(in leetcode's format)and manage testcases handily when you doing 
  	-- a_problem.txt
 
 --- a_problem.cpp
-
-   
 
 ```cpp
 //a_problem.cpp
@@ -106,7 +100,7 @@ int main(){
 
 
 
-//file: a_problem   **warning: not support annotation in this file , ensure no new line at the tail**
+//file: a_problem   warning: not support annotation
 
 ```
 1   
@@ -120,7 +114,8 @@ int main(){
 4141
 ["somestr4","somestr20","somestr53"]
 [[11,32,3,55],[4,5,6],[7,8,9]]
+//...
 
-...
+
 ```
 
