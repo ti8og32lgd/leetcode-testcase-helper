@@ -8,6 +8,11 @@ help you input(in leetcode's format)and manage testcases handily when you doing 
 
 ![intro](pic/intro.gif)
 
+
+
+
+
+
 ### feature
 
 - write multiple testcases in a text file
@@ -53,6 +58,7 @@ project directory
 ———dir/
 
 —————case.cpp
+
 —————printer.cpp
 
 ———data/
